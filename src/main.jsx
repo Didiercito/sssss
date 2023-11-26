@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Login from './Components/Organism/Login/Login'
+import Navs from './Components/Molecule/Nabvar/Navbar';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Login></Login>
+   <Navs></Navs>
   </React.StrictMode>,
 )
